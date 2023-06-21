@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RESULT_ACTIVITY.TITLE"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+    />
+    
+    <ImageView
+        android:id="@+id/iv_trophy"
+        android:layout_height="350dp"
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/RESULT_ACTIVITY.TROPHY_ALT"
+        android:src="@drawable/ic_trophy"
+        android:layout_marginTop="16dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/RESULT_ACTIVITY.CONGRATULATIONS"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:text="Username"
+    />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/secondary_text_dark"
+        android:gravity="center"
+        android:textSize="20sp"
+        tools:text="Your score is 9 out of 10"
+        />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/RESULT_ACTIVITY.FINISH"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+    />
+    
+</LinearLayout>

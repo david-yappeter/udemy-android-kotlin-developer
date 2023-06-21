@@ -19,5 +19,13 @@
 
     <!--    start::Quiz-->
     <string name="QUIZ.QUIZ_IMAGE">Quiz Image</string>
+    <string name="title_activity_result">ResultActivity</string>
     <!--    end::Quiz-->
+
+    <!--    start::ResultActivity-->
+    <string name="RESULT_ACTIVITY.TITLE">Result</string>
+    <string name="RESULT_ACTIVITY.TROPHY_ALT">Trophy</string>
+    <string name="RESULT_ACTIVITY.CONGRATULATIONS">Hey, Congratulations!</string>
+    <string name="RESULT_ACTIVITY.FINISH">Finish</string>
+    <!--    end::ResultActivity-->
 </resources>
