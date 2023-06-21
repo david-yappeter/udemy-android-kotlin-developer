@@ -2,13 +2,22 @@
     <string name="app_name">MyQuizApp</string>
     <string name="title_activity_main">activity_main</string>
 
-<!--    start::Constant-->
+    <!--    start::Constant-->
     <string name="CONSTANT.NAME">Name</string>
-<!--    end::Constant-->
+    <!--    end::Constant-->
 
-<!--    start::Home-->
+    <!--    start::Error-->
+    <string name="ERROR.ENTER_NAME">Please enter your name</string>
+    <!--    end::Error-->
+
+    <!--    start::Home-->
     <string name="HOME.TITLE">Quiz App!</string>
     <string name="HOME.WELCOME">Welcome</string>
     <string name="HOME.ENTER_NAME">Please enter your name</string>
-<!--    end::Home-->
+    <string name="title_activity_quiz_questions">QuizQuestionsActivity</string>
+    <!--    end::Home-->
+
+    <!--    start::Quiz-->
+    <string name="QUIZ.QUIZ_IMAGE">Quiz Image</string>
+    <!--    end::Quiz-->
 </resources>
