@@ -1,4 +1,4 @@
-package tosacom.example.myquizapp
+package udemy.example.myquizapp
 
 import org.junit.Test
 

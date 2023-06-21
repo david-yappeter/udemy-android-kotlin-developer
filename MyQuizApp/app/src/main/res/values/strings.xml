@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MyQuizApp</string>
+    <string name="title_activity_main">activity_main</string>
+
+<!--    start::Constant-->
+    <string name="CONSTANT.NAME">Name</string>
+<!--    end::Constant-->
+
+<!--    start::Home-->
+    <string name="HOME.TITLE">Quiz App!</string>
+    <string name="HOME.WELCOME">Welcome</string>
+    <string name="HOME.ENTER_NAME">Please enter your name</string>
+<!--    end::Home-->
 </resources>

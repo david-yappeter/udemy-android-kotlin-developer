@@ -1,4 +1,4 @@
-package tosacom.example.myquizapp
+package udemy.example.myquizapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("tosacom.example.myquizapp", appContext.packageName)
+        assertEquals("udemy.example.myquizapp", appContext.packageName)
     }
 }
